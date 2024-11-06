@@ -1,0 +1,12 @@
+{
+  "profile": "technogym",
+  "region": "ap-south-1",
+  "configuration": "Release",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 90,
+  "function-handler": "IdentityApi",
+  "function-name": "identityapi",
+  "environment-variables": "ASPNETCORE_ENVIRONMENT=Development;SOMETHING_ELSE=SomeValue",
+  "function-url-enable": true
+}
